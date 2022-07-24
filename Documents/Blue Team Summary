@@ -1,0 +1,29 @@
+###Blue Team: Summary of Operations
+Table of Contents
+  •	Network Topology
+  •	Description of Targets
+  •	Monitoring the Targets
+  •	Patterns of Traffic & Behavior
+  •	Suggestions for Going Further
+Network Topology
+The following machines were identified on the network:
+  •	Name of VM1: Kali  
+    o	Operating System: Kali Linux 5.4.0
+    o	Purpose: attacking vulnerable machines
+    o	IP Address: 192.168.1.90
+  •	Name of VM2:  ELK
+    o	Operating System: Linux 
+    o	Purpose: Hold Kibana/Elasticsearch dashboards for monitoring
+    o	IP Address:192.168.1.100
+  •	Name of VM3: Capstone 
+    o	Operating System: Linux 
+    o	Purpose: track system logs through Filebeat and Metricbeat and forward those logs to the ELK machine
+    o	IP Address: 192.168.1.105
+  •	Name of VM4: Target1
+    o	Operating System: Linux 3.16.0 - Debian
+    o	Purpose: target machine – Wordpress host
+    o	IP Address: 192.168.1.110
+  •	Name of VM5: Target 2
+    o	Operating System: Linux 3.2 – 4.9
+    o	Purpose: target machine
+    o	IP Address: 192.168.1.115
